@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="OC Test Automation Regression Suits" parallel='tests'
+	thread-count="2">
+
+	<listeners>
+		<listener
+			class-name="com.qa.classicCRM.testlisteners.ExtentReportListener" />
+		<listener
+			class-name="com.qa.classicCRM.testlisteners.TestAllureListener" />
+
+	</listeners>
+
+	<test name="LoginPage Test">
+		<classes>
+			<class name="com.qa.classicCRM.tests.LoginPageTest"></class>
+
+
+		</classes>
+	</test>
+	<test name="AccountsPage Test">
+		<classes>
+			<class name="com.qa.classicCRM.tests.AccountsPageTest" />
+
+
+		</classes>
+
+	</test>
+</suite> 
+           

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [OC Test Automation Regression Suits]" parallel="tests">
+  <listeners>
+    <listener class-name="com.qa.classicCRM.testlisteners.ExtentReportListener"/>
+    <listener class-name="com.qa.classicCRM.testlisteners.TestAllureListener"/>
+  </listeners>
+  <test thread-count="2" verbose="0" name="LoginPage Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.qa.classicCRM.tests.LoginPageTest">
+        <methods>
+          <include name="verifyLoginPageTitleTest"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.qa.classicCRM.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- LoginPage Test(failed) -->
+</suite> <!-- Failed suite [OC Test Automation Regression Suits] -->

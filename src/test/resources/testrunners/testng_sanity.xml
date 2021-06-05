@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite  name="Bhawna Test NG Session Suits">
+  <test  name="My Test Cases"  verbose="10" >
+    <classes>
+      <class name="TestNGSessions.DependsonMethodConcept"/>
+      <class name="TestNGSessions.ExpectedExceptionConcept"/>
+      
+      <class name="TestNGSessions.InvocationCountConcept"/>
+      <class name="TestNGSessions.LoginTest"/>
+      
+    </classes>
+  </test> 
+</suite> 
+           
